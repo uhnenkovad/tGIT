@@ -13,14 +13,14 @@ int main()
     double h, y, x;
     SetConsoleCP(1251);
     SetConsoleOutputCP(1251);
-    cout << "Введіть значення а:";
+    cout << "Введіть значення а: ";
     cin >> a;
-    cout << "Введіть значення b:";
+    cout << "Введіть значення b: ";
     cin >> b;
-    cout << "Введіть значення h:";
+    cout << "Введіть значення h: ";
     cin >> h;
     x = a;
-    while (x <= b) {
+    while (x <= b+0) {
         y = pow(sin(x), 2) + 2 * cos(x) + 3;
         cout << setw(10) << "x=" << x << setw(10) << "y=" << y << setw(10) << endl;
         x += h;
