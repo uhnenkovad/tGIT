@@ -20,7 +20,7 @@ int main()
     cout << "Введіть значення h:";
     cin >> h;
     x = a;
-    while (x <= b + 0.1) {
+    while (x <= b) {
         y = pow(sin(x), 2) + 2 * cos(x) + 3;
         cout << setw(10) << "x=" << x << setw(10) << "y=" << y << setw(10) << endl;
         x += h;
